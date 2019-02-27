@@ -1,0 +1,503 @@
+/* Generic styles */
+
+html  {
+  font-size: 16px;
+}
+
+body  {
+  font-size: 1em;
+  font-family: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: rgb(66, 66, 66);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6  {
+  font-family: 'Lato', 'Source Sans Pro', sans-serif;
+}
+
+h5  {
+  font-size: 1.25em;
+}
+
+h4  {
+  font-size: 1.563em;
+}
+
+h3  {
+  font-size: 1.953em;
+}
+
+h2  {
+  font-size: 2.441em;
+}
+
+h1  {
+  font-size: 3.052em;
+}
+
+p,
+li  {
+  font-size: 1em;
+}
+
+a,
+a:visited  {
+  color: #8c1515;
+}
+
+.row  {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+svg  {
+  fill: currentColor;
+}
+
+
+/* Home page hero section styles */
+
+.hero-img  {
+  min-height: 400px;
+  background-image: url(../inc/images/stanford.jpg);
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  border-radius: 5px;
+}
+
+.hero-img-text-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.hero-img-text  {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  min-width: 90%;
+  text-shadow: 0 2px 7px rgba(72,72,94,.5);
+}
+
+.hero-cta-btn  {
+  margin-top: 15px;
+  border-color: #fff;
+  color: #000;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.hero-cta-btn:hover  {
+  border-color: #fff;
+  background-color: #fff;
+  color: #424242;
+}
+
+
+/* Home page feature boxes' styles */
+
+.home-feature-text-container  {
+  position: relative;
+}
+
+.home-feature-text  {
+  background-color: rgba(237, 237, 237, 1);
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-45%);
+  max-width: 95%;
+  border-radius: 5px;
+}
+
+.home-feature-text.hft-left  {
+  right: -10%;
+}
+
+.home-feature-text.hft-right  {
+  left: -10%;
+}
+
+.home-feature-img img  {
+  border-radius: 5px;
+}
+
+.home-feature-text h4  {
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.home-feature-text p  {
+  font-size: 1.1em;
+}
+
+
+/* Home page testimonials section styles */
+
+.home-testimonials-heading  {
+  margin-bottom: 3%;
+}
+
+.home-testimonial-block  {
+  width: 100%;
+  height: 100%;
+}
+
+.home-testimonial-content  {
+  position: relative;
+}
+
+.home-testimonial-content:before  {
+  content: "\201C";
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  font-size: 10em;
+  color: rgba(237, 237, 237, 0.5);
+  font-family: 'IM Fell DW Pica';
+  z-index: -1;
+}
+
+.home-testimonial-block-container  {
+  margin-bottom: 2em;
+}
+
+.home-testimonial-block-container:nth-last-child(1),
+.home-testimonial-block-container:nth-last-child(2),
+.home-testimonial-block-container:nth-last-child(3),
+.home-testimonial-block-container:nth-last-child(4)  {
+  margin-bottom: 0;
+}
+
+.home-testimonial-author  {
+  margin-bottom: 0;
+}
+
+.home-testimonial-school-image  {
+  margin-right: 15px;
+}
+
+.home-testimonial-school-image img  {
+  height: 36px;
+  width: auto;
+  margin-top: 0.2em;
+  max-width: unset;
+}
+
+.home-testimonial-school  {
+  font-weight: bold;
+}
+
+
+/* Home page CTA section styles */
+
+.home-cta-container  {
+  min-height: 300px;
+  background-color: rgba(237, 237, 237, 1);
+  border-radius: 5px;
+}
+
+
+/* Home page blog section styles */
+
+.home-blog-label  {
+  border-radius: 5px;
+  background: #8C1515;
+  padding: 20% 30px;
+}
+
+.home-blog-label h3,
+.home-blog-label a  {
+  color: #fff;
+}
+
+.home-blog-label a  {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.home-blog-label svg  {
+  position: relative;
+  top: 0.125em;
+  margin-left: 5px;
+}
+
+.home-blog-posts-container  {
+  border-radius: 5px;
+  background: orange;
+}
+
+.home-blog-post  {
+  padding: 15px;
+  border-radius: 5px;
+  background: rgba(237, 237, 237, 1);
+}
+
+.blog-card-img  {
+  margin: -15px -15px 15px;
+  width: calc(100% + 30px);
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px 5px 0 0;
+}
+
+.blog-card-img img  {
+  border-radius: 10px 5px 0 0;
+  min-width: 250px;
+  min-height: 150px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.home-blog-box  {
+  height: 350px;
+}
+
+/* Home page school logos after hero section styles */
+
+.school-logos img  {
+  height: 50px;
+  width: auto;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  opacity: 0.7;
+}
+
+.school-logos  {
+  width: 100%;
+}
+
+.row-schools h4  {
+  margin-bottom: 1.5em;
+  font-weight: 300;
+}
+
+/* Navbar styles */
+
+.greythink-navbar-logo  {
+  max-height: 40px;
+  width: auto;
+}
+
+#site-navigation  {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#greythink-primary-menu li  {
+  font-size: 1.1em;
+}
+
+#greythink-primary-menu > li  {
+  margin-left: 30px;
+}
+
+#greythink-primary-menu > li > a  {
+  color: #424242;
+  padding: 0;
+  border-bottom: 1px solid transparent;
+}
+
+#greythink-primary-menu > li a:focus,
+#greythink-primary-menu > li a:hover,
+#greythink-primary-menu > li.active a  {
+  color: #424242;
+  border-bottom-color: #424242;
+}
+
+#greythink-primary-menu > li .dropdown-menu  {
+  top: 150%;
+}
+
+#greythink-primary-menu > li a:visited  {
+  color: #424242;
+}
+
+#greythink-primary-menu .dropdown-item:focus,
+#greythink-primary-menu .dropdown-item:hover  {
+  background-color: #ededed; 
+}
+
+
+/* Admissions page services boxes */
+
+.cap-service-box  {
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .cap-service-box.cap-second-row  {
+  height: 150px;
+  margin-top: 30px;
+} */
+
+.cap-service-box img  {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.cap-services-container  {
+  margin-bottom: 30px;
+}
+
+.cap-service-box-content  {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(140, 21, 21, 0.8);
+  color: #fff;
+  z-index: 2;
+}
+
+.cap-service-box-content h3  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+
+
+/* Internal page intro text */
+
+.row-intro-text  {
+  margin-top: 10%;
+  margin-bottom: 30px;
+}
+
+.intro-text-paragraph  {
+  font-size: 1.563em;
+}
+
+
+/* Services pages schools row */
+
+.greythink-content .row-schools  {
+  margin-top: 30px;
+}
+
+.greythink-content .row-schools img  {
+  height: 45px;
+}
+
+/* Services pages feature boxes */
+
+.service-feature-image img  {
+  width: 100%;
+  height: auto;
+}
+
+.service-feature-text ul  {
+  font-size: 1.1em;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.service-feature-text ul > li  {
+  margin-bottom: 0.8em;
+  opacity: 0.8;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 8px;
+}
+
+.service-feature-text ul > li:before  {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: RGBA(57, 128, 234, 0.8);
+  -webkit-box-shadow: 0 0 0 7px RGBA(57, 128, 234, 0.1);
+  box-shadow: 0 0 0 7px RGBA(57, 128, 234, 0.1);
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.service-feature-text ul > li > span  {
+  max-width: 95%;
+  overflow-x: visible;
+}
+
+.service-feature-text h3  {
+  margin-bottom: 0.5em;
+}
+
+.service-feature-text  {
+  width: 85%;
+}
+
+.service-feature-left .service-feature-text  {
+  margin-right: auto;
+}
+
+.service-feature-right .service-feature-text  {
+  margin-left: auto;
+}
+
+.row-service-feature  {
+  margin-bottom: 12%;
+}
+
+/* Services page CTA */
+
+.row-internal-cta  {
+  background-color: #EDEDED;
+  padding: 30px;
+  min-height: 200px;
+}
+
+.internal-cta-text  {
+  font-size: 1.25em;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+
+.row-internal-cta h3  {
+  font-weight: 700;
+}
+
+.internal-cta-column a  {
+  max-width: 80%;
+  background-color: rgba(140, 21, 21, 1);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.internal-cta-column a:hover  {
+  background-color: rgba(140, 21, 21, 0.9);
+  color: #fff;
+}
+
+
+
