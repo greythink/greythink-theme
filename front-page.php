@@ -1,85 +1,143 @@
 <?php get_header(); ?>
 
-<main class="container greythink-content greythink-front-page-content">
+<main class="container greythink-content greythink-page-greythink-admissions-content">
 
-  <div class="row row-hero">
-    <div class="col-12">
-      <div class="greythink-school-bg hero-img">
-        <div class="hero-img-text-container">
-          <div class="hero-img-text text-center">
-            <h4>Capitalize on your past. Optimize your present. Realize your future.</h4>
-            <h3>Maximise your chances to get to the best business schools.</h3>
-            <a href="#" class="hero-cta-btn btn btn-outline-primary">Get a free evaluation</a>
-          </div>
-        </div>
-      </div>
+<?php 
+  while(have_posts()):
+  the_post(); 
+?>
+
+  
+<div class="row row-intro-text">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <h1><?php the_title(); ?></h1>
+      <p class="intro-text-paragraph">
+        Guiding and supporting applicants to the world’s top business schools is at the heart of The greythink Exchange. Since 1996, our Comprehensive Consultation has proved to be the most effective service of its kind in the marketplace.
+        </p>
     </div>
-  </div> <!--row-hero-->
+    <div class="col-md-1"></div>
+  </div><!-- row-intro-text -->
 
   <div class="row row-schools">
-    <div class="col-12">
-      <h4 class="text-center">Our clients regularly receive admits from best schools.</h4>
+  <div class="col-md-1"></div>
+    <div class="col-10">
       <div class="school-logos d-flex flex-wrap flex-md-row justify-content-between align-items-center">
         <img src="<?php echo wp_get_attachment_image_src(22, 'large')[0]; ?>" alt="">
         <img src="<?php echo wp_get_attachment_image_src(21, 'large')[0]; ?>" alt="">
         <img src="<?php echo wp_get_attachment_image_src(23, 'large')[0]; ?>" alt="">
         <img src="<?php echo wp_get_attachment_image_src(28, 'large')[0]; ?>" alt="">
-        <img src="<?php echo wp_get_attachment_image_src(30, 'large')[0]; ?>" alt="">
       </div>
     </div>
+    <div class="col-md-1"></div>
   </div><!-- row-school-logos-->
 
-  <div class="row row-home-features">
-    <div class="col-md-6 home-feature-text-container">
-      <div class="home-feature-text hft-left">
-      <h4>Personalized yet structured service</h4>
-      <p>
-        We don't follow a cookie-cutter approach. We focus on you as an individual and provide honest advice in your best interest. We work at your pace and always available for you (even on Diwali and Christmas).
-      </p>
+  <div class="row row-service-feature align-items-center service-feature-left">
+    <div class="col-md-7">
+      <div class="service-feature-text">
+        <h3>Analysis and Planning</h3>
+        <ul>
+          <li><span>Thorough analysis of resume, transcripts and background</span></li>
+          <li><span>Development of tactical action plan to target particular schools</span></li>
+          <li><span>Target school-specific positioning using proprietary frameworks</span></li>
+          <li><span>Optional social media profile audit</span></li>
+          <li><span>90-minute teleconference to finalize the action plan
+          </span></li>
+          <li><span>Strategies and tactics for developing recommendations and essays
+          </span></li>
+        </ul>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="home-feature-img">
-        <img src="<?php echo wp_get_attachment_image_src(17, 'large')[0]; ?>" alt="">
-      </div>
+    <div class="col-md-5 service-feature-image">
+      <img src="<?php echo wp_get_attachment_image_src(88, 'medium_large')[0]; ?>" alt="">
     </div>
-  </div> <!--row-home-features-1-->
+  </div>
 
-  <div class="row row-home-features">
-    <div class="col-md-6">
-      <div class="home-feature-img">
-        <img src="<?php echo wp_get_attachment_image_src(14, 'large')[0]; ?>" alt="">
+  <div class="row row-service-feature align-items-center service-feature-right">
+    <div class="col-md-5 service-feature-image">
+      <img src="<?php echo wp_get_attachment_image_src(84, 'medium_large')[0]; ?>" alt="">
+    </div>
+    <div class="col-md-7">
+      <div class="service-feature-text">
+        <h3>Coaching and Guidance</h3>
+        <ul>
+          <li><span>Customized strategies and tactics</span></li>
+          <li><span>Constant feedback, answers and guidance via email and phone</span></li>
+          <li><span>Optional teleconference on post-greythink career planning</span></li>
+          <li><span>Optional translation services for recommendations</span></li>
+        </ul>
       </div>
     </div>
-    <div class="col-md-6 home-feature-text-container">
-      <div class="home-feature-text hft-right">
-      <h4>Global trends applied to the Indian context</h4>
-      <p>
-        We have former ad-coms and alumni from top B-schools on our team and a decade-old partnership with a leading player in the admissions consulting space. This gives us an edge in understanding the unique challenges that Indian applicants face.
-      </p>
-      </div>
-    </div>
-  </div> <!--row-home-features-2-->
+  </div>
 
-  <div class="row row-home-features">
-    <div class="col-md-6 home-feature-text-container">
-      <div class="home-feature-text hft-left">
-      <h4>The best team in business</h4>
-      <p>
-        We share the details of each consultant publicly on our website. The team comprises consultants from different industries and geographies - a truly international team that brings real-world insights to the admissions process.
-      </p>
+  <div class="row row-service-feature align-items-center service-feature-left">
+    <div class="col-md-7">
+      <div class="service-feature-text">
+        <h3>Implementation and Support</h3>
+        <ul>
+          <li><span>Multiple iterations of resume review and refinement</span></li>
+          <li><span>Thorough critiques and comments on recommendation outlines</span></li>
+          <li><span>Painstakingly detailed reviews of essay outlines</span></li>
+          <li><span>Suggestions for stylistic improvements of narrative drafts</span></li>
+        </ul>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="home-feature-img">
-        <img src="<?php echo wp_get_attachment_image_src(13, 'large')[0]; ?>" alt="">
+    <div class="col-md-5 service-feature-image">
+      <img src="<?php echo wp_get_attachment_image_src(85, 'medium_large')[0]; ?>" alt="">
+    </div>
+  </div>
+
+  <div class="row row-service-feature align-items-center service-feature-right">
+    <div class="col-md-5 service-feature-image">
+      <img src="<?php echo wp_get_attachment_image_src(86, 'medium_large')[0]; ?>" alt="">
+    </div>
+    <div class="col-md-7">
+      <div class="service-feature-text">
+        <h3>Interview Preparation</h3>
+        <ul>
+          <li><span>Written strategies and tactics for successful interviews</span></li>
+          <li><span>Unlimited access to our exclusive online video-practice facility</span></li>
+          <li><span>Real-time, mock interview for each school invitation</span></li>
+          <li><span>Optional accent-evaluation by an expert accent-reduction coach</span></li>
+        </ul>
       </div>
     </div>
-  </div> <!--row-home-features-3-->
+  </div>
+
+  <div class="row row-service-feature align-items-center service-feature-left">
+    <div class="col-md-7">
+      <div class="service-feature-text">
+        <h3>Waitlist Support</h3>
+        <ul>
+          <li><span>Proven strategies and tactics for advancing from waitlist</span></li>
+          <li><span>Continous coaching until school announces decision</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-5 service-feature-image">
+      <img src="<?php echo wp_get_attachment_image_src(89, 'medium_large')[0]; ?>" alt="">
+    </div>
+  </div>
+
+  <div class="row row-service-feature align-items-center service-feature-right">
+    <div class="col-md-5 service-feature-image">
+      <img src="<?php echo wp_get_attachment_image_src(87, 'medium_large')[0]; ?>" alt="">
+    </div>
+    <div class="col-md-7">
+      <div class="service-feature-text">
+        <h3>Miscellaneous Coaching</h3>
+        <ul>
+          <li><span>Additional insights and guidance for doubt clearance</span></li>
+          <li><span>Guidance on development and presentation of video essay</span></li>
+          <li><span>Online simulations of team-discussion tests for thorough practice</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <div class="row home-testimonials">
     <div class="col-12">
-      <h2 class="home-testimonials-heading text-center">Our results speak for themselves</h2>
+      <h2 class="home-testimonials-heading">Our results speak for themselves</h2>
     </div>
 
     <div class="col-md-3 home-testimonial-block-container">
@@ -220,39 +278,20 @@
 
   </div> <!--row-home-testimonials-->
 
-  <div class="row row-cta">
-    <div class="col-12">
-      <div class="home-cta-container d-flex flex-column justify-content-center align-items-center">
-        <h2>Give us 5 minutes of your time and see the difference.</h2>
-        <a class="btn btn-primary btn-lg" href="#" role=button>Get a free evaluation</a>
-      </div>
+  <div class="row row-internal-cta">
+    <div class="col-md-7 d-flex flex-column justify-content-center internal-cta-column">
+      <h3>Get your profile evaluated</h3>
+      <p class="internal-cta-text">
+        Our team will get back to you with the results in a few days
+      </p>
     </div>
-  </div> <!--row-cta-->
-
-  <div class="row home-blog">
-    <div class="col-md-3">
-      <div class="home-blog-label home-blog-box d-flex flex-column justify-content-between align-items-start">
-        <h3>From the blog</h3>
-        <p><a href="#">See all posts  <i class="fas fa-angle-right"></i></a></p>
-      </div>
+    <div class="col-md-5 d-flex flex-column justify-content-center internal-cta-column align-items-center">
+      <a href="#" class="btn btn-lg btn-block">Request a free evaluation</a>
     </div>
+  </div>
 
-    <?php for($i=0; $i<3; $i++): ?>
+<?php endwhile; ?>
 
-    <div class="col-md-3">
-      <div class="home-blog-box home-blog-post home-blog-post-<?php echo $i + 1; ?>">
-        <div class="blog-card-img">
-        <img src="<?php echo wp_get_attachment_image_src(13, 'medium')[0]; ?>" alt="">
-        </div>
-        <p>Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Ante venenatis dapibus aliquet.</p>
-        <a href="#">Read more</a>
-      </div>
-    </div>
-
-    <?php endfor; ?>
-  </div> <!--row-blog-->
-
-</main> <!--greythink-content container-fluid-->
+</main>
 
 <?php get_footer(); ?>
-
