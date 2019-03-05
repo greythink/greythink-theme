@@ -395,6 +395,10 @@ svg  {
   font-size: 1.563em;
 }
 
+.row-intro-text h1  {
+  font-weight: 700;
+}
+
 
 /* Services pages schools row */
 
@@ -498,6 +502,24 @@ svg  {
   background-color: rgba(140, 21, 21, 0.9);
   color: #fff;
 }
+
+
+/* Work projects section */
+
+.row-work-projects h2  {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+.work-project a  {
+  color: #424242;
+}
+
+.work-project h4  {
+  font-weight: 700;
+}
+
+
 
 
 
