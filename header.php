@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'greythink-theme' ); ?></a>
-	<div class="navbar-container container-fluid">
+	<div class="navbar-container container">
 		<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light bg-light bg-white">
 			<a class="navbar-brand custom-logo-link" href="<?php echo get_home_url(); ?>" rel="home" itemprop="url"><img class="greythink-navbar-logo" src="<?php echo wp_get_attachment_image_src(61, 'medium')[0]; ?>" alt="logo"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#greythinkNavbarContent" aria-controls="greythinkNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
