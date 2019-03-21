@@ -1,5 +1,10 @@
 /* Generic styles */
 
+*  {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html  {
   font-size: 16px;
 }
@@ -492,14 +497,15 @@ svg  {
 
 .internal-cta-column a  {
   max-width: 80%;
-  background-color: rgba(140, 21, 21, 1);
+  background-color: rgb(178, 0, 0);
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .internal-cta-column a:hover  {
-  background-color: rgba(140, 21, 21, 0.9);
+  background-color: rgba(178, 0, 0, 0.9);
   color: #fff;
 }
 
@@ -519,6 +525,38 @@ svg  {
   font-weight: 700;
 }
 
+.row-work-projects  {
+  margin-bottom: 30px;
+}
+
+.grey-bottom  {
+  background: linear-gradient(to bottom, #fff 60%, #f1f1f1 60% 100%);
+}
+
+.row-contact h4  {
+  color: #696969;
+}
+
+.work-project h4,
+.work-project h4 a  {
+  color: #b20000;
+}
+
+.work-project  {
+  margin-bottom: 3em;
+}
+
+.row-work-projects h2  {
+  margin-bottom: 1.5em;
+}
+
+.row-contact  {
+  margin-bottom: 0%;
+}
+
+.row-footer-copyright  {
+  text-align: left;
+}
 
 
 

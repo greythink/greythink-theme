@@ -76,10 +76,10 @@
     </div>
   </div>
 
-  <div class="row row-work-projects">
+  <div class="row row-work-projects" id="work-section">
     <div class="col-12">
 
-      <h2>Selected Past work</h2>
+      <h2><span class="grey-bottom">Selected Past work</span></h2>
 
       <div class="work-project">
         <h4><a href="https://newscentral24x7.com/">NewsCentral24x7</a> and <a href="https://hindi.newscentral24x7.com/">NewsCentral24x7 Hindi</a></h4>
@@ -132,6 +132,13 @@
       
     </div> <!-- row-work-project col-12 -->
   </div> <!-- row-work-projects -->
+
+  <div class="row row-contact" id="contact-section">
+    <div class="col-12">
+      <h4>Ready to get started on your next project?</h4>
+      <h2>Write to us at <span class="grey-bottom">arch@greythink.in</span></h2>
+    </div>
+  </div>
 
 </main>
 

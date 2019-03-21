@@ -14,7 +14,9 @@
 <footer id="colophon" class="site-footer container">
 
 <div class="row row-footer-copyright">
-	&copy;<?php echo date('Y'); ?> Greythink.in
+	<div class="col-12">
+		&copy;<?php echo date('Y'); ?> GreyThink Labs. All rights reserved.
+	</div>
 </div>
 
 </footer>  <!-- footer container -->
