@@ -72,7 +72,7 @@
       </p>
     </div>
     <div class="col-md-5 d-flex flex-column justify-content-center internal-cta-column align-items-center">
-      <a href="#" class="btn btn-lg btn-block">Write to us</a>
+      <a href="#contact-section" class="btn btn-lg btn-block">Write to us</a>
     </div>
   </div>
 
