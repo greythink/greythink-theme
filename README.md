@@ -1,1 +1,1 @@
-Custom theme for the official website of Greythink.in.
+Custom theme for the deprecated website of Greythink.in.
